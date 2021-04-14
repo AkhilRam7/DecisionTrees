@@ -6,9 +6,6 @@ Machine Learning has a handful number of Classification and Regression Algorithm
 ## Decision Trees
 Decision trees are based on tree-like models which help to decide on the process at each leaf node based on probability. Decision trees are white-box models where the predictive outcome can be tracked. It is also very similar to how we make decisions in real life, deciding on a series of questions.
 
-
-<img src="https://cdn2.hubspot.net/hubfs/4145950/Imported_Blog_Media/tree1.png"  alt="Markdown" style="float: left; margin-right: 10px;" />
-
 ![Image](https://cdn2.hubspot.net/hubfs/4145950/Imported_Blog_Media/tree1.png)
 
 
@@ -34,19 +31,25 @@ So we go step-by-step, picking an attribute and splitting the data such that the
 ### Gini index
 Gini Index, also known as Gini impurity, calculates the amount of probability of a specific feature that is classified incorrectly when selected randomly. It is pure if all the data belongs to the same label and the value of the Gini index lies between 0 to 1
 
-https://www.google.com/url?sa=i&url=http%3A%2F%2Fwww.learnbymarketing.com%2F481%2Fdecision-tree-flavors-gini-info-gain%2F&psig=AOvVaw2OBPEd2UXypHuWZRY1c-x2&ust=1618461805739000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCMjuhaP2_O8CFQAAAAAdAAAAABAD
+![Image](http://www.learnbymarketing.com/wp-content/uploads/2016/02/gini-index-formula.png)
 
 ### Entropy
 Entropy is the main concept of this algorithm, which helps determine a feature or attribute that gives maximum information about a class is called Information gain
+
+![Image](https://datascience.foundation/img/pdf_images/understanding_decision_trees_with_python_gini_impurity_2_1.png)
 
 ### Information Gain:
 The difference in entropy of node and sum of the entropy of all child nodes. Based on the measures the algorithm will split the dataset.
 
 There are few disadvantages of Decision trees they have a strong tendency to overfit the data, which is a serious problem. We need some regularization methods to be taken care. There are two broad strategies to control overfitting in decision trees: truncation and pruning. 
 
-### Truncation: Consciously stopping the tree to further branch out at one point in time. This Truncation is done based on Homogeneity Threshold. When homogeneity is greater than the threshold then tree is stopped to grow further
+### Truncation: 
 
-### Pruning: The tree is allowed to split as maximum as possible then we will decide to ignore the leaves which aren't effective. its generally bottom-top method
+Consciously stopping the tree to further branch out at one point in time. This Truncation is done based on Homogeneity Threshold. When homogeneity is greater than the threshold then tree is stopped to grow further
+
+### Pruning:
+
+The tree is allowed to split as maximum as possible then we will decide to ignore the leaves which aren't effective. its generally bottom-top method
 
 Below are the parameters considered for both truncating and pruning
 - Threshold (Gini/IG or entropy)
@@ -55,31 +58,3 @@ Below are the parameters considered for both truncating and pruning
 - Min samples to split
 - Min samples in leaf 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) 
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/AkhilRam7/DecisionTrees/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
