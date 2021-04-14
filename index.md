@@ -6,6 +6,9 @@ Machine Learning has a handful number of Classification and Regression Algorithm
 ## Decision Trees
 Decision trees are based on tree-like models which help to decide on the process at each leaf node based on probability. Decision trees are white-box models where the predictive outcome can be tracked. It is also very similar to how we make decisions in real life, deciding on a series of questions.
 
+![Image](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.axisgroup.com%2Fdata-industry-insights-blog%2Ftree-can-help-predict-future&psig=AOvVaw0NgR2GLOSkIDrW7V6Nbcia&ust=1618471884505000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCKC0x-2b_e8CFQAAAAAdAAAAABAD)
+
+
 ### Classification with Decision Trees
 
 Essentially every node in a decision tree will represent a validation of some condition. Every node will branch out into two partitions based on the node validation for a binary tree. If we have more than two partitions it's called a multiway decision tree. All the algorithm does is divide the dataset into multiple sub-datasets which follow a pattern. Here we will be focussing more on the binary decision tree.
@@ -66,8 +69,7 @@ Syntax highlighted code block
 
 **Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.axisgroup.com%2Fdata-industry-insights-blog%2Ftree-can-help-predict-future&psig=AOvVaw0NgR2GLOSkIDrW7V6Nbcia&ust=1618471884505000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCKC0x-2b_e8CFQAAAAAdAAAAABAD)
-```
+[Link](url) 
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
