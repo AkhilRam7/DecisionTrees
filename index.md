@@ -58,3 +58,10 @@ Below are the parameters considered for both truncating and pruning
 - Min samples to split
 - Min samples in leaf 
 
+We can increase the accuracy even more and be able to regularize the models better through ensemble methods. An ensemble means a group of things viewed as a whole rather than individually. In ensembles, a collection of models is used to make predictions, rather than individual models. We will use Random Forest which is one of an ensemble technique.
+
+## Random Forest:
+
+Instead of one decision tree in random forest, we generate various tree models and ensemble them. We use Bagging (Bootstrap Aggregating) as an ensemble method. Each Tree is modeled based on a different data sample. Having different features, different training data sample makes random forest more diverse and hence less overfitting.
+
+![Image](https://cdn.corporatefinanceinstitute.com/assets/random-forest.png)
