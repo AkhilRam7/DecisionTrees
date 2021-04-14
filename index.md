@@ -1,6 +1,6 @@
-## Welcome to GitHub Pages
+##  Introduction
 
-## Introduction
+
 Machine Learning has a handful number of Classification and Regression Algorithms. All these intend to solve the same problem but each algorithm stands out with its methodology. Machine Learning has adapted to address a wide range of real-world problems right from recommendation systems to self-driving cars where each area has its limitations. Decision Trees are one such algorithm used to solve classification and regression problems. 
 
 ## Decision Trees
@@ -66,7 +66,7 @@ Syntax highlighted code block
 
 **Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
+[Link](url) and ![Image](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.axisgroup.com%2Fdata-industry-insights-blog%2Ftree-can-help-predict-future&psig=AOvVaw0NgR2GLOSkIDrW7V6Nbcia&ust=1618471884505000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCKC0x-2b_e8CFQAAAAAdAAAAABAD)
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
