@@ -6,7 +6,7 @@ Machine Learning has a handful number of Classification and Regression Algorithm
 ## Decision Trees
 Decision trees are based on tree-like models which help to decide on the process at each leaf node based on probability. Decision trees are white-box models where the predictive outcome can be tracked. It is also very similar to how we make decisions in real life, deciding on a series of questions.
 
-![Image](https://cdn2.hubspot.net/hubfs/4145950/Imported_Blog_Media/tree1.png =400x400)
+![Image](https://cdn2.hubspot.net/hubfs/4145950/Imported_Blog_Media/tree1.png =250x250)
 
 
 ### Classification with Decision Trees
