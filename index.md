@@ -6,7 +6,7 @@ Machine Learning has a handful number of Classification and Regression Algorithm
 ## Decision Trees
 Decision trees are based on tree-like models which help to decide on the process at each leaf node based on probability. Decision trees are white-box models where the predictive outcome can be tracked. It is also very similar to how we make decisions in real life, deciding on a series of questions.
 
-![Image](https://cdn2.hubspot.net/hubfs/4145950/Imported_Blog_Media/tree1.png)
+![Image](https://cdn2.hubspot.net/hubfs/4145950/Imported_Blog_Media/tree1.png =400x400)
 
 
 ### Classification with Decision Trees
@@ -31,7 +31,7 @@ So we go step-by-step, picking an attribute and splitting the data such that the
 ### Gini index
 Gini Index, also known as Gini impurity, calculates the amount of probability of a specific feature that is classified incorrectly when selected randomly. It is pure if all the data belongs to the same label and the value of the Gini index lies between 0 to 1
 
-![Image](http://www.learnbymarketing.com/wp-content/uploads/2016/02/gini-index-formula.png)
+![Image](https://miro.medium.com/max/417/1*QF-JeWpQQ86xhRhseHGecg.png)
 
 ### Entropy
 Entropy is the main concept of this algorithm, which helps determine a feature or attribute that gives maximum information about a class is called Information gain
